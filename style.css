@@ -1,15 +1,16 @@
 
-.container{
-  color: red;
+.container, a {
+  color: darkturquoise;
   font-family: Helvetica ;
+  text-decoration: none;
 }
-.text1 {
+.golden {
   position:absolute;
-  left:50px;
+  left:350px;
   top:100px;
 }
-.text2 {
+.blanc {
   position:absolute;
   left:200px;
-  top:50px
+  top:94px
 }
