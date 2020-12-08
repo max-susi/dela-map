@@ -1,35 +1,48 @@
 body {
   background-color: lightgray;
-  font-family: Helvetica ;
+  font-family: sans-serif ;
 }
-/**h1 {
-  font-family: Helvetica ;
-}**/
 
-.lawson-box a {
-  color: darkturquoise;
-  
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lawson a{
+  /* background-image: url(Lawson_delta.png); */
+  color: white;
   text-decoration: none;
 }
 
+.lawson-box-img {
+  background-image: url("Lawson_delta.png") !important;
+  background-position: left;
+  height: 600px;
+  width: 600px;
+  
+  background-repeat: no-repeat
+}
+
 .golden {
-  position:absolute;
-  left:350px;
-  top:190px;
-}
+  position: relative;
+  left:57%;
+  top:15%;
+} 
+
 .blanc {
-  position:absolute;
-  left:200px;
-  top:213px
+  position: relative;
+  left:32%;
+  top:11.5%
 }
+
 .arden {
-  position:absolute;
-  left:410px;
-  top:370px
-}
-.copyright {
+  position: relative;
+  left:68%;
+  top:34%;
+} 
+
+#copyright {
   font-style: italic;
   text-align: center;
   font-size: small;
-  color: black;
+  color: black !important;
 }
