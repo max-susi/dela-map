@@ -11,23 +11,25 @@
   height: 600px;
   width: 600px;
   
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+
+  position: relative;
 }
 
 #golden {
-  position: relative;
+  position: absolute;
   left:57%;
   top:15%;
 } 
 
 #blanc {
-  position: relative;
+  position: absolute;
   left:32%;
   top:11.5%
 }
 
 #arden {
-  position: relative;
+  position: absolute;
   left:68%;
   top:34%;
 } 
