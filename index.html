@@ -3,45 +3,71 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Dela Video Map - Lawson Delta</title>
 </head>
 
-<body>
-  <h1>Delacroix video guide map</h1>
-  <p>His name is Dela, he is a streamer, and he is here everyday. Visit him on <a href="https://www.twitch.tv/delacroix22">
-    twitch.tv/delacroix22 </a></p>
-  
-  <!-- Add a placeholder for the Twitch embed -->
-  <div id="twitch-embed"></div>
-  <script src="https://player.twitch.tv/js/embed/v1.js"></script>
-  <script type="text/javascript">
-    new Twitch.Player("twitch-embed", {
-      channel: "delacroix22", autoplay:false
-    });
-  </script>
-
-
-  <div class="container">
-    <h2>Lawson Delta</h2>
-    <div class=lawson>
-      <div class="lawson-box-img">
-        <div class="golden"><a href="https://youtu.be/VSnpF8-KCeA" target="_blank">video</a></div>
-        <div class="blanc"><a href="https://youtu.be/GIAoc5g1muk" target="_blank">video</a></div>
-        <div class="arden"><a href="https://youtu.be/sYGLDN32zPU" target="_blank">video</a></div>
-      </div>
-      
+<body class="container">
+  <h1 class="display-4">Delacroix video guide map</h1>
+  <div class=container>
+    <div class="row">
+      <div class="col-sm-4">
+      <p class="lead">His name is <strong>Dela</strong>, he is a <strong>streamer</strong>, and he is here <strong>everyday</strong>. <br /> Visit him on <a
+          href="https://www.twitch.tv/delacroix22">
+          twitch.tv/delacroix22 </a></p>
+        </div>
+    <!-- </div>
+    <div class="row"> -->
+      <!-- Add a placeholder for the Twitch embed -->
+      <div id="twitch-embed"></div>
+      <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+      <script type="text/javascript">
+        new Twitch.Player("twitch-embed", {
+          channel: "delacroix22", autoplay: false
+        });
+      </script>
     </div>
-    <span id="copyright">copyright of the map and hunt material: <a href="https://www.huntshowdown.com/"
+  </div>
+  <div class=lawson>
+    <h2>Lawson Delta</h2>
+    <div class="lawson-box-img">
+      <div id="arden"><a href="https://youtu.be/sYGLDN32zPU" target="_blank"><ion-icon size="large" name="videocam"></ion-icon></a></div>
+      <div id="golden"><a href="https://youtu.be/GIAoc5g1muk" target="_blank"><ion-icon size="large" name="videocam"></ion-icon></a></div>
+      <div id="blanc"><a href="https://youtu.be/GIAoc5g1muk" target="_blank"><ion-icon size="large" name="videocam"></ion-icon></a></div>
+    </div>
+  </div>
+  <span id="copyright">copyright for the map and hunt material: <a href="https://www.huntshowdown.com/"
       target="_blank">crytek</a> </span>
-      <p>Direct Links</p>
-    <ul>
-      <li><a href="https://youtu.be/sYGLDN32zPU" target="_blank">Arden Parish</a></li>
-      <li><a href="https://youtu.be/GIAoc5g1muk" target="_blank">Blanc Brinery</a></li>
-      <li><a href="https://youtu.be/VSnpF8-KCeA" target="_blank">Golden Acres</a></li>
-    </ul>
+  </div>
+  <br /><br />
+  Direct Links
+  <ul>
+    <li><a href="https://youtu.be/sYGLDN32zPU" target="_blank">Arden Parish</a></li>
+    <li><a href="https://youtu.be/GIAoc5g1muk" target="_blank">Blanc Brinery</a></li>
+    <li><a href="https://youtu.be/qz_wHvjnRD4" target="_blank">Bradley & Craven Brickworks</a></li>
+    <li><a href="https://youtu.be/HIyqNr_2mIs" target="_blank">C & A Lumber</a></li>
+    <li><a href="https://youtu.be/Uc52TAp5Spo" target="_blank">Fort Carmick</a></li>
+    <li><a href="https://youtu.be/J1JDg17sCuU" target="_blank">Godard Docks</a></li>
+    <li><a href="https://youtu.be/VSnpF8-KCeA" target="_blank">Golden Acres</a></li>
+    <li><a href="https://youtu.be/KlD7up4sukg" target="_blank">Hemlock and Hide</a></li>
+    <li><a href="https://youtu.be/Z1znysBvw6k" target="_blank">Lawson Station</a></li>
+    <li><a href="https://youtu.be/_tOxuivkats" target="_blank">Maw Battery</a></li>
+    <li><a href="https://youtu.be/yeBnJC3enjI" target="_blank">Nicholls Prison</a></li>
+    <li><a href="https://youtu.be/IHGIYj4fUG4" target="_blank">Salter's Pork</a></li>
+    <li><a href="https://youtu.be/WRa8_87IXWU" target="_blank">Scupper Lake</a></li>
+    <li><a href="https://youtu.be/IjjxZRA-TkQ" target="_blank">Sweetbell Flour</a></li>
+    <li><a href="https://youtu.be/VY00Xs_CgC8" target="_blank">Windy Run</a></li>
+    <li><a href="https://youtu.be/S7mdOlnoSLc" target="_blank">Wolfshead Arsenal</a></li>
+  </ul>
   </div>
 
+
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 
 </html>

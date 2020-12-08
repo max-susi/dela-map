@@ -1,17 +1,9 @@
-body {
-  background-color: lightgray;
-  font-family: sans-serif ;
-}
 
-p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.lawson a{
-  /* background-image: url(Lawson_delta.png); */
+ .lawson a{
   color: white;
   text-decoration: none;
-}
+} 
+
 
 .lawson-box-img {
   background-image: url("Lawson_delta.png") !important;
@@ -22,19 +14,19 @@ p {
   background-repeat: no-repeat
 }
 
-.golden {
+#golden {
   position: relative;
   left:57%;
   top:15%;
 } 
 
-.blanc {
+#blanc {
   position: relative;
   left:32%;
   top:11.5%
 }
 
-.arden {
+#arden {
   position: relative;
   left:68%;
   top:34%;
@@ -46,3 +38,4 @@ p {
   font-size: small;
   color: black !important;
 }
+
