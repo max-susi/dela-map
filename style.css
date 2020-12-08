@@ -1,16 +1,35 @@
-
-.container, a {
-  color: darkturquoise;
+body {
+  background-color: lightgray;
   font-family: Helvetica ;
+}
+/**h1 {
+  font-family: Helvetica ;
+}**/
+
+.lawson-box a {
+  color: darkturquoise;
+  
   text-decoration: none;
 }
+
 .golden {
   position:absolute;
   left:350px;
-  top:100px;
+  top:190px;
 }
 .blanc {
   position:absolute;
   left:200px;
-  top:94px
+  top:213px
+}
+.arden {
+  position:absolute;
+  left:410px;
+  top:370px
+}
+.copyright {
+  font-style: italic;
+  text-align: center;
+  font-size: small;
+  color: black;
 }
