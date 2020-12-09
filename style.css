@@ -15,24 +15,87 @@
 
   position: relative;
 }
-
-#golden {
-  position: absolute;
-  left:57%;
-  top:15%;
-} 
-
-#blanc {
-  position: absolute;
-  left:32%;
-  top:11.5%
-}
-
 #arden {
   position: absolute;
   left:68%;
-  top:34%;
+  top:39.5%;
 } 
+#blanc {
+  position: absolute;
+  left:33%;
+  top:14%
+}
+#bradley {
+  position: absolute;
+  left:42%;
+  top:87%
+}
+#calumber {
+  position: absolute;
+  left:60%;
+  top:82%
+}
+#fortcarmick {
+  position: absolute;
+  left:36%;
+  top:66%
+}
+#godard {
+  position: absolute;
+  left:10%;
+  top:14.5%
+}
+#golden {
+  position: absolute;
+  left:58%;
+  top:15%;
+} 
+#hemlock {
+  position: absolute;
+  left:82%;
+  top:84%
+}
+#ironworks {
+  position: absolute;
+  left:1%;
+  top:1%
+}
+#lawson {
+  position: absolute;
+  left:43%;
+  top:26%
+}
+#maw {
+  position: absolute;
+  left:16%;
+  top:40%
+}
+#nichollsprison {
+  position: absolute;
+  left:67%;
+  top:66%
+}
+#salters {
+  position: absolute;
+  left:82%;
+  top:19%
+}
+#sweetbell {
+  position: absolute;
+  left:46%;
+  top:51%
+}
+#windy {
+  position: absolute;
+  left:88%;
+  top:53%
+}
+#wolfshead {
+  position: absolute;
+  left:15%;
+  top:87%
+}
+
 
 #copyright {
   font-style: italic;
